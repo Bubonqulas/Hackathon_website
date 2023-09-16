@@ -1,5 +1,5 @@
 
- {
+body {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -296,3 +296,19 @@ h2 {
 #myBtn:hover {
     background-color: #555;
 }
+
+/* google map thingy */
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  .google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
